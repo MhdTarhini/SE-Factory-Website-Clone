@@ -255,7 +255,7 @@
         .programs {
             display: flex;
             flex-direction: column;
-            padding: 40px;
+            padding: 70px;
     background-color: yellow;
     }
     
@@ -297,10 +297,43 @@
         .programs-list {
             display: flex;
             justify-content: flex-start;
-            gap: 60px
-        }
-        
-        .programs-list p:first-child {
-            background-color: black;
-            color: white;
+            gap: 60px;
+                padding-left: 20px;
+            }
+                        .programs-list div {
+                            width: 50px;
+                            height: 30px;
+                            text-align: center;
+                            padding: 20px 20px 0 20px;
+            
+                        }
+            
+                        .programs-list div:first-child {
+                            background-color: black;
+                            color: white;
+                padding: 0px;
+                    height: 100%;
+                    width: 50px;
+                    height: 30px;
+                    padding: 20px 20px 0 20px;
+                
+                }
+                
+                .program-content {
+                    display: flex;
+                    background-color: black;
+                    border: 15px solid black;
+                    border-radius: 20px;
+                }
+                
+                .program-content .right-side {
+                    flex: 1;
+                    color: white;
+                }
+                
+                
+                .program-content img {
+                    flex: 1;
+                    height: 450px;
+                    border-radius: 20px;
 }
