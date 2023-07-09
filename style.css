@@ -31,15 +31,17 @@
     display: flex;
     justify-content: space-between;
     padding: 90px;
-
+    align-content: center;
 }
-
-.navbar img {
-    height: 50px;
+.navbar svg {
+    align-self: center;
+    margin-right: 100px;
+    cursor: pointer;
 }
 
 .header-container .right-side {
     background: url('./assets/images/header-right-side.png');
+    background-color: rgba(27, 16, 16, 0.578);
     background-size: cover;
     background-blend-mode: overlay;
     display: flex;
