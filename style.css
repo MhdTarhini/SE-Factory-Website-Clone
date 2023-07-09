@@ -6,12 +6,24 @@
     height: 100vh;
 
 }
+.navbar-container {
+    position: absolute;
+    width: 100%;
+}
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+
+.navbar img {
+    height: 50px;
+}
 
 .header-container .right-side {
     background: url('./assets/images/header-right-side.png');
     background-size: cover;
-    background-color: rgba(62, 60, 60, 0.9);
     background-blend-mode: overlay;
 }
 
@@ -37,13 +49,13 @@
 .content-right h1 {
     color: white;
     font-size: 35px;
-        font-weight: bold;
+    font-weight: bold;
 }
 
 .content-right p {
     color: white;
     line-height: 30px;
-    word-spacing: 0.3em;
+        word-spacing: 0.3em;
 }
 
 .content-right button {
@@ -56,7 +68,6 @@
 }
 .header-container .left-side {
     background: url('./assets/images/header-left-side.png');
-    opacity: 0.7;
     background-size: cover;
         background-blend-mode: overlay;
         animation: changeColor 5s infinite;
@@ -64,11 +75,11 @@
     
     @keyframes changeColor {
         0% {
-            background-color: purple;
+            background-color: rgb(237, 183, 237);
         }
     
         50% {
-            background-color: pink;
+            background-color: rgb(255, 155, 172);
         }
     
         100% {
@@ -96,13 +107,13 @@
     }
     
     .content-left h1 {
-        color: white;
+        color: black;
         font-size: 35px;
         font-weight: bold;
     }
     
     .content-left p {
-        color: white;
+        color: black;
         line-height: 30px;
         word-spacing: 0.3em;
     }
