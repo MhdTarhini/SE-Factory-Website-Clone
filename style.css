@@ -204,13 +204,103 @@
 .hello-world img {
     border: 10px solid #28eea7;
     border-radius: 20px;
-    width: 1000px
-    
-        /* oekofkeofkofefe */
+    width: 1000px;
+    }
     
         .milestones-container {
             display: flex;
             flex-direction: column;
-            padding: 40px;
+            padding: 60px;
+        }
+    
+        .milestones-content {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+    
+        }
+    
+        .employement-success {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
             align-items: center;
         }
+    
+    
+    
+    
+        .employement-success h1 {
+            font-size: 140px;
+            margin: 0;
+        }
+    
+        .other-rate {
+            flex: 1;
+            display: flex;
+            gap: 40px;
+        }
+    
+    
+        .other-rate h1 {
+            font-size: 50px;
+            font-weight: 600;
+        }
+    
+        .other-rate p {
+            font-size: 20px;
+        }
+    
+        .programs {
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+    background-color: yellow;
+    }
+    
+    .programs .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        }
+        
+        .programs .header .color {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        
+        }
+        
+        .header .color .white {
+            background-color: white;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        .header .color .gray {
+            background-color: gray;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        .header .color .black {
+            background-color: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        .programs-list {
+            display: flex;
+            justify-content: flex-start;
+            gap: 60px
+        }
+        
+        .programs-list p:first-child {
+            background-color: black;
+            color: white;
+}
