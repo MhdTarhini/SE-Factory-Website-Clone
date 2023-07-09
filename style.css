@@ -1,0 +1,37 @@
+.header-container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.header-container .right-side {
+    background: url('./assets/images/header-right-side.png');
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.805);
+    background-blend-mode: overlay;
+}
+
+.header-container .right-side .content-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 60px;
+    height: 100%;
+    color: white;
+}
+
+.header-container .left-side {
+    background: url('./assets/images/header-left-side.png');
+    opacity: 0.7;
+}
+
+.header-container .left-side .content-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 0 60px;
+    height: 100%;
+    color: white;
+}
