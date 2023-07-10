@@ -603,50 +603,77 @@
 }
 .contact-us-container{
     display: flex;
-    gap: 50px;
-    height: 600px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .maps{
-    flex:1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-    border-radius: 10px;
+    background-color: #363738;
+    border-radius: 20px;
+    padding: 20px;
+    color: #a5a6a9;
 
 }
+.maps .section-1{
+    align-self: center;
+}
 .maps .section-1 img{
-    width: 300px;
+    width: 250px;
+    border-radius: 10px
 }
 .maps .section-2{
     display: flex;
     flex-direction: column;
-    line-height: 30px;
+    margin: 0 0 30px 30px;
+    word-spacing: 5px;
+    font-size: 15px;
+
+}
+.maps .section-2 span:first-child{
+    color: #fcfcfd;
+    font-weight: 500;
 }
 .contact-form{
-    flex:3;
     display: flex;
     flex-direction: column;
-    background-color: gray;
-    padding: 40px;
-    border-radius: 10px;
+    background-color: #363738;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+}
+.contact-form .top-contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form .top-contact-form span:nth-child(2){
+    font-size: 25px;
+    color: #28eea7;
+    font-weight: 700;
 }
 .contact-form .info{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #fcfcfd;
 }
 .customize{
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-}
-.contact-form .info input{
-    height: 35px;
-    border: none;
+    
 
 }
+.contact-form .info input{
+    height: 40px;
+    border: none;
+}
+.customize label{
+    margin-bottom: 10px;
+}
+
 .first-last{
     display: flex; 
     gap: 10px;
@@ -657,19 +684,163 @@
 }
 .check-course{
     display: flex;
+    flex-direction: column;
+}
+.check-course div:first-child{
+    margin-bottom: 10px;
+}
+.check-course .check-boxes{
+    display: flex;
     align-items: center;
-    gap:10px
+    flex-wrap: wrap;
+}
+.check-course .check-boxes label{
+    margin-right: 40px;
+    color: #fcfcfd;
 }
 .display-none{
 display: none;
 }
 .circle-checkbox{
-    margin:10px ;
-    width: 15px;
-    height: 15px;
-    border: 1px solid black;
+    margin:7px ;
+    width: 12px;
+    height: 12px;
+    border: 1px solid gray solid black;
     border-radius: 50%;
+    cursor: pointer;
 }
+.inquiry .customize textarea{
+    height: 100px;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+.submit button{
+    border: none;
+    background-color: #28eea7;
+    padding: 13px;
+    font-size: 17px;
+    font-weight: 700;
+}
+@media (max-width : 468px) {
+    
+
+    .first-last{
+        flex-wrap: wrap;
+    }
+    .email-phone{
+        flex-wrap: wrap;
+        
+    }
+    .inquiry .customize textarea{
+        width: 300px;
+    }
+    
+}
+.partner{
+    padding: 70px;
+
+}
+.partner .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.partner-logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.partner-logo img{
+    width: 180px;
+    height: 100px;
+    margin: 0 10px 10px 10px;
+}
+.subscribe{
+    padding: 50px;
+    background-color: #363738;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-side-subscribe p:first-child{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+.left-side-subscribe p:first-child span{
+    color: #28eea7;
+}
+.left-side-subscribe p:nth-child(2){
+    font-size: 15px;
+}
+.right-side-subscribe{
+    display:flex;
+    align-items: center;
+}
+.right-side-subscribe input{
+    height: 40px;
+    border: none;
+    margin: 0;
+}
+.right-side-subscribe button{
+    height: 40px;
+    border: none;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    color:#fcfcfd;
+    background-color: #232323;
+}
+.footer-left-side{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:60px
+}
+.top-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer span{
+    font-size: 12px;
+}
+.se-name{
+    color:#dcdee1 ;
+    font-weight: 700;
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    gap: 40px;
+}
+.footer-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo-square{
+    width: 150px;
+}
+.social-media{
+    display: flex;
+    gap: 30px;
+    
+}
+.social-media img{
+    background-color: gray;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
+
 
 
 
