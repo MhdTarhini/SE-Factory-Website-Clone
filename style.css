@@ -593,6 +593,7 @@
 }
 .contact-us{
     background-color: #28eea7;
+    padding: 70px;
 }
 .contact-us .header {
     display: flex;
@@ -602,12 +603,73 @@
 }
 .contact-us-container{
     display: flex;
+    gap: 50px;
+    height: 600px;
 }
 .maps{
+    flex:1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    border-radius: 10px;
+
 }
-.maps .section-1{
-    
+.maps .section-1 img{
+    width: 300px;
 }
+.maps .section-2{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+.contact-form{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 40px;
+    border-radius: 10px;
+}
+.contact-form .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.customize{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.contact-form .info input{
+    height: 35px;
+    border: none;
+
+}
+.first-last{
+    display: flex; 
+    gap: 10px;
+}
+.email-phone{
+    display: flex;
+    gap: 10px;
+}
+.check-course{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.display-none{
+display: none;
+}
+.circle-checkbox{
+    margin:10px ;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
 
